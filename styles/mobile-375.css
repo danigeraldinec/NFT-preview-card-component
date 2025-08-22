@@ -1,4 +1,4 @@
-root {
+:root {
 
     --Blue-500:  hsl(215, 51%, 70%);
     --Cyan-400: hsl(178, 100%, 50%);
@@ -7,9 +7,38 @@ root {
     --Blue-900-cardBG: hsl(216, 50%, 16%);
     --Blue-800-line: hsl(215, 32%, 27%);
     --White: hsl(0, 0%, 100%);
+
+    --font-size:18 px;
 }
+.outfit-300{
+    font-family: "outfit",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.outfit-400{
+    font-family: "outfit",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-600{
+    font-family: "outfit",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background: var(--Blue-950-mainBG);
+}
+
+.card {
+    background: var(--Blue-900-mainBG);
+    margin: 30px 10px;
 }
